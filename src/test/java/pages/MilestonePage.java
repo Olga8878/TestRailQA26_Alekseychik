@@ -19,7 +19,7 @@ public class MilestonePage extends BasePage {
     private final String thisMilestoneIsCompletedCheckbox = "addEditMilestoneIsCompleted";
     private final String ADD_CANCEL_BUTTON = "milestoneButtonOk";
     private final By ADD_MILESTONE_BUTTON = By.id("sidebar-milestones-add");
-    private final static By MESSAGE_TEXT = By.cssSelector("[data-testid='messageSuccessDivBox']");
+    private final By MESSAGE_TEXT = By.cssSelector("[data-testid='messageSuccessDivBox']");
 
     public MilestonePage(WebDriver driver) {
         super(driver);
